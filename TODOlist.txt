@@ -1,0 +1,10 @@
+1. make venv
+    go to cmd
+        python -m venv [name it]
+        activate
+        pip list
+        pip install nodeenv     #install nodeenv
+        nodeenv --version       #version check
+        nodeenv -p              #install nodeenv in python env
+
+2. install django
