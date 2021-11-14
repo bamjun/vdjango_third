@@ -63,6 +63,12 @@ DONE-Include Font Awesome(vue)
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 DONE-Set up the base template(vue)
 -Create django app and models for products
+	venv
+	python manage.py startapp [product]
+	cd django/config/settings.py
+		add ['product'] to INSTALLED_APPS
+	python manage.py makemigrations
+	python manage.py migrate
 -Create serializer and views for the products
 -Create simple front page (latest products)
 -View a product
