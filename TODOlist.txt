@@ -71,8 +71,10 @@ DONE-Set up the base template(vue)
 	python manage.py migrate
 	setting media url
 
-3327-Create serializer and views for the products
--Create simple front page (latest products)
+DONE-Create serializer and views for the products
+	create serializers.py at product
+	create urls.py at product
+3949-Create simple front page (latest products)
 -View a product
 	-Create viewset in Django
 	-Create vue page for showing product
