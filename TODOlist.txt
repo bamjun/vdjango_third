@@ -69,7 +69,9 @@ DONE-Set up the base template(vue)
 		add ['product'] to INSTALLED_APPS
 	python manage.py makemigrations
 	python manage.py migrate
--Create serializer and views for the products
+	setting media url
+
+3327-Create serializer and views for the products
 -Create simple front page (latest products)
 -View a product
 	-Create viewset in Django
