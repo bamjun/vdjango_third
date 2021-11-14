@@ -58,35 +58,38 @@ DONE-Install and setup (Vue)
 	npm install bulma
 	npm run serve
 DONE-Include Font Awesome(vue)
+		vue/public/index.html
+		<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 DONE-Set up the base template(vue)
-DONE-Create django app and models for products
-DONE-Create serializer and views for the products
-DONE-Create simple front page (latest products)
-DONE-View a product
+-Create django app and models for products
+-Create serializer and views for the products
+-Create simple front page (latest products)
+-View a product
 	-Create viewset in Django
 	-Create vue page for showing product
 	-Add link to detail page
-DONE-Sette opp Vuex / State
-DONE-Make it possible to add to cart
-	DONE-Add functionality to vuex
-	DONE-Initialize store in app.vue
+-Sette opp Vuex / State
+-Make it possible to add to cart
+	-Add functionality to vuex
+	-Initialize store in app.vue
 	-Add button to product page
 	-Show a toast message
-DONE-Implement a loading bar
-DONE-Set document title(All pages)
-DONE-make it possible to view a category
+-Implement a loading bar
+-Set document title(All pages)
+-make it possible to view a category
 	-Convert the product to a component
-DONE-Add search functionality
-DONE-View cart
+-Add search functionality
+-View cart
 	-A cart item should be a component
-DONE-Change contents of cart
+-Change contents of cart
 	-Increment/Decrement content
 	-Remove from cart
-DONE-Make it possible to sign up
-DONE-Make it possible to log in
-DONE-Create a simple my account page
-DONE-Proceed to checkout (Authentication)
-2:00:02 DONE-Create a simple success page
+-Make it possible to sign up
+-Make it possible to log in
+-Create a simple my account page
+-Proceed to checkout (Authentication)
+-Create a simple success page
 -Show my orders on the my account page
 	-An order should be a component
 -Deploy Django
